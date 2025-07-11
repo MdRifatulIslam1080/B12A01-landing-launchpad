@@ -170,6 +170,7 @@ main {
   align-items: center;
   background-color: white;
   padding: 70px;
+  border-radius: 14px;
 }
 .focus-img {
   width: 100%;
