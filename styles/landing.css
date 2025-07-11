@@ -37,6 +37,10 @@ body {
   border: none;
   height: 47px;
   width: 132px;
+  text-align: center;
+}
+.btn-primary:hover {
+  background-color: #000000d0;
 }
 .custom-width {
   width: 1140px;
@@ -164,6 +168,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
+  padding: 70px;
 }
 .focus-img {
   width: 100%;
@@ -175,6 +181,11 @@ main {
   padding: 0 35x 0 15px;
   margin-top: 20px;
 }
+.focus-title {
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
 .touch-title {
   font-size: 97px;
 }
@@ -185,19 +196,31 @@ main {
   justify-content: space-between;
   height: 632px;
 }
+.touch-me {
+  width: 100%;
+  max-width: 497px;
+}
 input[type="email"],
 input[type="text"],
-input[type="text-area"],
 input[type="button"] {
   height: 70px;
   border-radius: 10px;
-  background-color: ;
   display: block;
   width: 100%;
-  padding: 32px 20px;
+  padding: 0 20px;
   margin-bottom: 19px;
   border: none;
 }
+
+.message {
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 19px;
+  border: none;
+}
+
 .logo-title {
   color: #4e47ff;
   font-size: 100px;
@@ -212,4 +235,6 @@ input[type="button"] {
 }
 .footer-styles {
   text-align: center;
+  background-color: white;
+  padding: 30px 0px;
 }
