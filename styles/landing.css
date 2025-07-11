@@ -5,7 +5,9 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
-
+body {
+  background-color: #f5f8ff;
+}
 /* nav {
   display: flex;
   align-items: center;
@@ -24,6 +26,7 @@
   color: #4e47ff;
   height: 51px;
   width: 99px;
+  font-size: 34px;
 }
 .btn-primary {
   background-color: #4e47ff;
@@ -66,20 +69,119 @@
   width: 1140px;
   margin-top: 116px;
 }
+.action-title {
+  font-size: 42px;
+}
+.action-sub-title {
+  font-size: 24px;
+  color: #252432;
+  opacity: 50%;
+}
+.users-info {
+  color: #000000;
+  opacity: 50%;
+  font-size: 20px;
+}
 
 /* main styles */
 main {
   max-width: 1140px;
   margin: 0 auto;
 }
-.action-image {
+.action-img {
   width: 100%;
   padding: 0 35x 0 15px;
-  border-radius: 10px;
+  border-radius: 48px;
+  overflow: hidden;
+  width: 403px;
+  height: 328px;
 }
 .pro-users-section {
+  width: 1016px;
+  height: 306px;
+  margin-top: 122px;
+  background-color: #4d47ff12;
+  padding: 80px 50px;
+  border-radius: 24px;
 }
 .skills-container {
   display: flex;
   gap: 158px;
+  text-align: center;
+  justify-content: space-around;
+}
+.users-number {
+  color: #4e47ff;
+  font-size: 80px;
+}
+.pro-users {
+  text-align: center;
+  font-size: 38px;
+}
+.review-title {
+  font-size: 42px;
+  text-align: center;
+}
+.challenge-section {
+  margin-top: 141px;
+}
+.challenge {
+}
+.challenge-1 {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  gap: 24px;
+}
+.focus-section {
+  margin-top: 127px;
+  text-align: center;
+  display: block;
+}
+.focus-img {
+  width: 100%;
+
+  border-radius: 48px;
+  width: 840px;
+  height: 367px;
+  overflow: hidden;
+  padding: 0 35x 0 15px;
+}
+.touch-title {
+  font-size: 97px;
+}
+.get-in-touch {
+  margin-top: 93px;
+  display: flex;
+  width: 1140px;
+  justify-content: space-between;
+  height: 632px;
+}
+input[type="email"],
+input[type="text"],
+input[type="text-area"],
+input[type="button"] {
+  height: 70px;
+  border-radius: 10px;
+  background-color: ;
+  display: block;
+  width: 100%;
+  padding: 32px 20px;
+  margin-bottom: 19px;
+  border: none;
+}
+.logo-title {
+  color: #4e47ff;
+  font-size: 100px;
+}
+.logo-p {
+  color: #8987a1;
+}
+.logo-p-2 {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.footer-styles {
+  text-align: center;
 }
